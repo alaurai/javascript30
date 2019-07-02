@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(48, 132, 216);
+  font-family: 'Comfortaa', cursive;
+}
+h1 {
+  font-size: 2rem;
+  margin: 50px 0;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background: rgb(230, 16, 59);
+  padding: 25px 0;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.day {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgb(241, 220, 100);
+  margin: 3px 3px;
+}
+
+.day a {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+}
+
+.day img {
+  width: 100%;
+}
+
+.day span {
+  font-size: 1.3rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(41, 36, 36);
+  padding: 1.3rem;
+  font-weight: bolder;
+}
